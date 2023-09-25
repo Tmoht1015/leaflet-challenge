@@ -1,0 +1,45 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style for the legend */
+.info.legend {
+  position: bottomright;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.info.legend i {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+/* Style for the legend labels */
+.info.legend strong {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style for depth color indicators */
+.info.legend i {
+  border-radius: 50%;
+}
+
+/* Style for depth color labels */
+.info.legend span {
+  margin-left: 5px;
+}
